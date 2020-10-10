@@ -1,0 +1,58 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.portfolio {
+}
+.portfolio-header {
+  height: 100vh;
+  background: no-repeat center/cover url('/images/bg_header.png');
+}
+
+.profile-container {
+  height: 100%;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-img {
+  width: 10rem;
+  height: auto;
+}
+
+.welcome-text {
+  font-size: 1.7rem;
+  text-align: center;
+  color: #f6f5f5;
+  line-height: 2.6rem;
+}
+
+.job-type {
+  color: #ee6f57;
+}
+
+.profile-btn {
+  border: none;
+  border-radius: 3%;
+  padding: 0.7rem 2rem;
+  background-color: #1f3c88;
+  color: #f6f5f5;
+}
+.profile-btn:hover {
+  background-color: #2950b3;
+
+  cursor: pointer;
+}
+
+.profile-btn:focus {
+  outline: none;
+}
+
+h2 {
+  font-weight: 300;
+}
