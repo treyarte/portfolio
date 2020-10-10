@@ -56,3 +56,17 @@ body {
 h2 {
   font-weight: 300;
 }
+
+@media only screen and (min-width: 1300px) {
+  .profile-img {
+    width: 15rem;
+  }
+
+  .welcome-text {
+    font-size: 2rem;
+  }
+  .profile-btn {
+    padding: 1rem 2.3rem;
+    font-size: 1rem;
+  }
+}
