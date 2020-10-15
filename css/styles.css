@@ -3,13 +3,52 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Roboto', sans-serif;
+  background-color: #f6f5f5;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #343434;
+  height: 5rem;
+}
+
+.content-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #343434;
+}
+
+.nav-body {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
+  /* align-items: flex-end; */
+}
+
+.nav-item {
+  margin: 1rem;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #f6f5f5;
+}
+
+.nav-item a:hover {
+  color: #ff4b5c;
+  cursor: pointer;
 }
 
 .portfolio {
 }
 .portfolio-header {
   height: 100vh;
-  background: no-repeat center/cover url('/images/bg_header.png');
+  background: no-repeat center/cover
+    url('https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 
 .profile-container {
@@ -21,8 +60,53 @@ body {
   align-items: center;
 }
 .profile-img {
-  width: 10rem;
+  width: 8rem;
   height: auto;
+}
+
+.project-container {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+}
+
+.project-item {
+  width: 400px;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-radius: 3%;
+}
+
+.project-summary {
+  margin: 1rem;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.social-contacts ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.social-contacts span {
+  margin: 1rem;
+  color: #eeeeee;
+  font-size: 2rem;
+}
+
+.social-contacts span:hover {
+  color: #d1cccc;
+  cursor: pointer;
 }
 
 .welcome-text {
@@ -30,21 +114,26 @@ body {
   text-align: center;
   color: #f6f5f5;
   line-height: 2.6rem;
+  margin-top: 0;
+  background-color: #00000060;
+  border-radius: 1%;
+  padding: 0.5rem;
 }
 
 .job-type {
-  color: #ee6f57;
+  color: #ff4b5c;
 }
 
 .profile-btn {
   border: none;
   border-radius: 3%;
   padding: 0.7rem 2rem;
-  background-color: #1f3c88;
+  background-color: #2950b3;
   color: #f6f5f5;
+  text-decoration: none;
 }
 .profile-btn:hover {
-  background-color: #2950b3;
+  background-color: #1f3c88;
 
   cursor: pointer;
 }
@@ -59,7 +148,7 @@ h2 {
 
 @media only screen and (min-width: 1300px) {
   .profile-img {
-    width: 15rem;
+    width: 10rem;
   }
 
   .welcome-text {
