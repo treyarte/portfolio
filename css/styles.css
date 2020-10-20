@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #f6f5f5;
+  color: #343434;
 }
 
 nav {
@@ -71,20 +72,75 @@ nav {
   justify-content: center;
 }
 
-.project-image img {
+.project-card-image img {
   width: 100%;
-  height: auto;
 }
 
-.project-item {
-  width: 400px;
-  padding: 1rem;
+.project-card {
+  margin: 2rem;
+  /* padding: 0.5rem; */
   background-color: #ffffff;
-  border-radius: 3%;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px -2px #393e46;
+
+  /* display: flex; */
+}
+
+.project-card-body {
+  display: flex;
+  flex-flow: column;
+}
+
+.project-card-footer {
+  margin: 0.5rem;
+}
+
+.project-card-left {
+  padding: 0;
+}
+
+.project-card-right {
+  margin: 1rem;
+}
+
+.project-card-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2950b3;
+  margin-top: 0.2rem;
+}
+
+.project-card-links a:hover {
+  cursor: pointer;
+  color: #1f3c88;
+}
+
+.project-card-tags ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project-card-tags li {
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  color: #f6f5f5;
+  background-color: #ff4b5c;
 }
 
 .project-summary {
-  margin: 1rem;
+  margin: 1rem 1rem 0 1rem;
+  line-height: 1.5rem;
 }
 
 .project-title {
@@ -157,5 +213,14 @@ h2 {
   .profile-btn {
     padding: 1rem 2.3rem;
     font-size: 1rem;
+  }
+
+  .project-card {
+    width: 1000px;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 3%;
+    display: flex;
+    flex-flow: row nowrap;
   }
 }
