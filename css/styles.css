@@ -68,6 +68,7 @@ nav {
 .project-container {
   width: 100%;
   display: flex;
+  flex-flow: column;
   align-content: center;
   justify-content: center;
 }
@@ -202,7 +203,7 @@ h2 {
   font-weight: 300;
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 800px) {
   .profile-img {
     width: 10rem;
   }
@@ -215,12 +216,16 @@ h2 {
     font-size: 1rem;
   }
 
+  .project-container {
+    flex-flow: row wrap;
+  }
+
   .project-card {
-    width: 1000px;
+    width: 400px;
     padding: 1rem;
     background-color: #ffffff;
     border-radius: 3%;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column;
   }
 }

@@ -12,112 +12,177 @@
   </head>
   <body>
     <div class="portfolio" id="home">
-    
-    <header class="portfolio-header">
-        <div class="profile-container">
-          <img
-          src="./images/profile_img.png"
-          alt="portfolio"
-          class="profile-img"
-          />
-          
-          <div class="social-contacts">
-            <ul>
-              <li>
-                <a target="_blank" href="https://github.com/treyarte">
-                  <span class="fab fa-github-square"></span>
-                </a>
-              </li>
-              <li>
-                 <a target="_blank" href="https://www.linkedin.com/in/treyvionartejohnson/">
-                    <span class="fab fa-linkedin"></span>
+      <header class="portfolio-header">
+          <div class="profile-container">
+            <img
+            src="./images/profile_img.png"
+            alt="portfolio"
+            class="profile-img"
+            />
+            <div class="social-contacts">
+              <ul>
+                <li>
+                  <a target="_blank" href="https://github.com/treyarte">
+                    <span class="fab fa-github-square"></span>
                   </a>
-              </li>
-              <li>
-                <a target="_blank" href="https://twitter.com/ArteJohnson">
-                  <span class="fab fa-twitter-square"></span>
-                </a>  
-              </li>
-              <li>
-                <a target="_blank" href="./files/resume.pdf">
-                  <span class="fas fa-file-pdf"></span>
-                </a>
                 </li>
-            </ul>
-          </div>
-          
-          <div class="profile-text">
-            <h2 class="welcome-text">Hello, i'm Trey. <br/>
+                <li>
+                  <a target="_blank" href="https://www.linkedin.com/in/treyvionartejohnson/">
+                      <span class="fab fa-linkedin"></span>
+                    </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://twitter.com/ArteJohnson">
+                    <span class="fab fa-twitter-square"></span>
+                  </a>  
+                </li>
+                <li>
+                  <a target="_blank" href="./files/resume.pdf">
+                    <span class="fas fa-file-pdf"></span>
+                  </a>
+                  </li>
+              </ul>
+            </div>
             
-              I'm a
-              <span class="job-type">Full-Stack</span> Engineer.
-            </h2>
+            <div class="profile-text">
+              <h2 class="welcome-text">Hello, i'm Trey. <br/>
+              
+                I'm a
+                <span class="job-type">Full-Stack</span> Engineer.
+              </h2>
+            </div>
+            
+              <a href="#projects" class="profile-btn">
+                Projects
+              </a>
           </div>
-          
-            <a href="#projects" class="profile-btn">
-              Projects
-            </a>
-        </div>
-    </header>
-    <nav>
-      <ul class="nav-body">
-        <li class="nav-item"> <a href="#home">Home</a></li>
-        <li class="nav-item"> <a href="#projects">Projects</a></li>
-        <li class="nav-item"> <a href="#about">About</a></li>
-        <li class="nav-item"> <a href="#contact">Contact</a></li>
-    </ul>
-    </nav>
+      </header>
+      <nav>
+        <ul class="nav-body">
+          <li class="nav-item"> <a href="#home">Home</a></li>
+          <li class="nav-item"> <a href="#projects">Projects</a></li>
+          <li class="nav-item"> <a href="#about">About</a></li>
+          <li class="nav-item"> <a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div id="projects">
       <h2 class="content-title">
         Projects
       </h2>
-
       <div class="project-container">
+        <!-- my droplist -->
         <div class="project-card">
           <div class="project-card-body">
-
             <div class="project-card-left">
-              
               <div class="project-card-image">
                 <img src="./images/mydroplist-demo-mobile.png" alt="mydroplist project">
               </div>
             </div>
             <div class="project-card-right">
-              
               <h3 class="project-title">My DropList</h3>
               <div class="project-card-links">
-                
                 <a target="_blank" href="https://mydroplist.herokuapp.com/droplists/">View Demo</a>
                 <a target="_blank" href="https://github.com/treyarte/capstone-one">View Source Code</a>
-                
               </div>
               <div class="project-summary">
-                A web application that was created for my capstone project at Springboard's coding bootcamp. 
+                My DropList is a web application that was created for my capstone project at Springboard's coding bootcamp. 
                 The app helps facilitate better communication between stockers and forklift drivers by providing 
-                record-keeping for users' drop lists.
+                record-keeping of users' drop lists.
               </div>
-            
             </div>
           </div>
-
           <div class="project-card-footer">            
             <div class="project-card-tags">
               <ul>
-                <li class="python-tag">Python</li>
-                <li class="python-tag">Flask</li>
-                <li class=js-tag>JavaScript</li>
-                <li class="db-tag">PostgreSQL</li>
-                <li class="css-tag">BootStrap</li>
+                <li class="">Python</li>
+                <li class="">Flask</li>
+                <li class="">JavaScript</li>
+                <li class="">PostgreSQL</li>
+                <li class="">BootStrap</li>
+                <li class="">Full-Stack</li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
+        
+        <!-- jobly -->
+        <div class="project-card">
+          <div class="project-card-body">
+            <div class="project-card-left">
+              <div class="project-card-image">
+                <img src="./images/jobly-demo.png" alt="mydroplist project">
+              </div>
+            </div>
+            <div class="project-card-right">
+              <h3 class="project-title">Jobly</h3>
+              <div class="project-card-links">
+                <a target="_blank" href="https://jobly-taj.herokuapp.com/">View Demo</a>
+                <a target="_blank" href="https://github.com/treyarte/react-jobly-frontend">View Front-End Source Code</a>
+                <a target="_blank" href="https://github.com/treyarte/jobly">View Back-End Source Code</a>
+              </div>
+              <div class="project-summary">
+                Jobly is a web application that allows job seekers to explore and apply to position openings for a company. The Front-End was 
+                built using React.js and connects to a Node.js API backend.  
+              </div>
+            </div>
+          </div>
+          <div class="project-card-footer">            
+            <div class="project-card-tags">
+              <ul>
+                <li class="">Node.js</li>
+                <li class="">React.js</li>
+                <li class="">JavaScript</li>
+                <li class="">PostgreSQL</li>
+                <li class="">BootStrap</li>
+                <li class="">JWT</li> 
+                <li class="">API</li> 
+                <li class="">Full-Stack</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- shoply -->
+        <div class="project-card">
+          <div class="project-card-body">
+            <div class="project-card-left">
+              <div class="project-card-image">
+                <img src="./images/shoply-demo.png" alt="mydroplist project">
+              </div>
+            </div>
+            <div class="project-card-right">
+              <h3 class="project-title">Shoply</h3>
+              <div class="project-card-links">
+                <a target="_blank" href="https://treyarte.github.io/shoply">View Demo</a>
+                <a target="_blank" href="https://github.com/treyarte/shoply">View Source Code</a>
+              </div>
+              <div class="project-summary">
+                Shoply is a React-Redux project that simulates a online store's catalog and shopping cart. This project is
+                entirely Front-End and uses local storage to save cart information.
+              </div>
+            </div>
+          </div>
+          <div class="project-card-footer">            
+            <div class="project-card-tags">
+              <ul>
+                <li class="">Redux</li>
+                <li class="">React.js</li>
+                <li class="">Front-End</li>
+                <li class="">JavaScript</li>
+                <li class="">Material-UI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
     </div>
-    
-      
-    
+    <!-- about sections -->
+    <div class="about">
+      <h2 class="content-title">
+        About Me
+      </h2>
     </div>
+
     <script src="https://kit.fontawesome.com/858809a5ac.js" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
   </body>
