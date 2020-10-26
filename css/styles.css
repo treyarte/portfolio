@@ -122,8 +122,7 @@ body {
 
 .portfolio-header {
   height: 100vh;
-  background: no-repeat center/cover
-    url('https://images.pexels.com/photos/4218883/pexels-photo-4218883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background: no-repeat center/cover url('/images/bg_header.png');
 }
 
 .profile-container {
