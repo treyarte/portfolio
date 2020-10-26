@@ -122,7 +122,7 @@ body {
 
 .portfolio-header {
   height: 100vh;
-  background: no-repeat center/cover url('/images/bg-header.png');
+  background: no-repeat center/cover url('../images/bg-header.png');
 }
 
 .profile-container {
