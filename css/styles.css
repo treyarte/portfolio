@@ -7,19 +7,95 @@ body {
   color: #343434;
 }
 
-nav {
+.custom-nav {
   width: 100%;
   display: flex;
   justify-content: flex-end;
-  background-color: #343434;
+  background-color: #393e46;
   height: 5rem;
+  color: #f6f5f5;
 }
 
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-icons {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.about-me {
+  width: 100%;
+  /* text-align: center; */
+  font-weight: 400;
+  font-size: 1.1rem;
+  /* width: 30rem; */
+  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+#contact .social-contacts span {
+  color: #1f3c88;
+}
+
+#contact .social-contacts span:hover {
+  color: #405588;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 3rem 3rem 3rem;
+}
 .content-title {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
   color: #343434;
+}
+
+.custom-container {
+  margin: 3rem;
+}
+
+.footer {
+  width: 100%;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  align-content: center;
+}
+
+.learn-icon {
+  width: 8rem;
+  border-radius: 5rem;
+}
+
+.mail-btn {
+  margin: 1rem;
+
+  border-style: solid;
+  border-radius: 1rem;
+  color: #343434;
+  text-decoration: none;
+  padding: 1rem;
+  border-width: 3px;
+  border-color: #343434;
+  background-color: #ffffff;
+}
+
+.mail-btn:hover {
+  box-shadow: 0 0 5px -2px #393e46;
+  color: #ff4b5c;
 }
 
 .nav-body {
@@ -44,8 +120,6 @@ nav {
   cursor: pointer;
 }
 
-.portfolio {
-}
 .portfolio-header {
   height: 100vh;
   background: no-repeat center/cover
@@ -148,6 +222,11 @@ nav {
   text-align: center;
 }
 
+.skills img {
+  border-radius: 100%;
+  width: 100%;
+}
+
 .social-contacts ul {
   padding: 0;
   margin: 0;
@@ -227,5 +306,13 @@ h2 {
     border-radius: 3%;
     display: flex;
     flex-flow: column;
+  }
+
+  .about-me {
+    width: 32%;
+  }
+
+  .about-container {
+    flex-flow: row wrap;
   }
 }
