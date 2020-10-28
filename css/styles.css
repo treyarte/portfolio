@@ -10,7 +10,7 @@ body {
 .custom-nav {
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   background-color: #393e46;
   height: 5rem;
   color: #f6f5f5;
