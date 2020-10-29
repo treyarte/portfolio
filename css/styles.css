@@ -96,7 +96,7 @@ body {
 
 .mail-btn:hover {
   box-shadow: 0 0 5px -2px #393e46;
-  color: #ff4b5c;
+  color: #007980;
 }
 
 .nav-body {
@@ -117,7 +117,7 @@ body {
 }
 
 .nav-item a:hover {
-  color: #ff4b5c;
+  color: #00adb5;
   cursor: pointer;
 }
 
@@ -210,11 +210,11 @@ body {
   padding: 0.3rem;
   border-radius: 0.5rem;
   color: #f6f5f5;
-  background-color: #ff4b5c;
+  background-color: #00adb5;
 }
 
 .project-summary {
-  margin: 1rem 1rem 0 1rem;
+  margin: 1rem 1rem 0 0;
   line-height: 1.5rem;
 }
 
@@ -251,13 +251,13 @@ body {
   color: #f6f5f5;
   line-height: 2.6rem;
   margin-top: 0;
-  background-color: #00000060;
+  background-color: #000000b4;
   border-radius: 1%;
   padding: 0.5rem;
 }
 
 .job-type {
-  color: #ff4b5c;
+  color: #00adb5;
 }
 
 .profile-btn {
