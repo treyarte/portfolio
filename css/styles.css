@@ -5,6 +5,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f6f5f5;
   color: #343434;
+  scroll-behavior: smooth;
 }
 
 .custom-nav {
